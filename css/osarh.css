@@ -1,0 +1,64 @@
+/* Start Virable */
+
+:root{
+  --main-color: #14274E;
+}
+
+
+/* End Virable */
+
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: '';
+  direction: rtl;
+}
+ul{
+  list-style: none;
+  margin-bottom: 0;
+}
+
+
+.container-fluid {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }
+
+.me-auto{
+  margin-right: 0 !important;
+}
+.navbar-nav .nav-item{
+  padding: 0 1rem;
+}
+
+.sec-bttn{
+  width: 250px;
+}
+
+.navbar-nav-last{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.active-item{
+  background-color: var(--main-color);
+  border-radius: 20px;
+}
+
+.navbar .container-fluid .navbar-toggler{
+  color: var(--main-color);
+  font-size: 30px;
+  padding-left: 0;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
